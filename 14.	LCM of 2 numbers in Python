@@ -1,0 +1,6 @@
+import math
+a = int(input("a: "))
+b = int(input("b: "))
+GCD = math.gcd(a,b)
+LCM = (a*b)// GCD                           
+print(LCM)
