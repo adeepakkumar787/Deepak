@@ -1,0 +1,6 @@
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+maximum = (a+b+abs(a-b))//2
+minimum = (a+b-abs(a-b))//2
+print("Maximum number is ",maximum)
+print("Minimum number is ",minimum)
