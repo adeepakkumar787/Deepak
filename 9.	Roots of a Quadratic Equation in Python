@@ -1,0 +1,10 @@
+import math
+a=int(input("a:"))
+b= int(input("b:"))
+c=int(input("c:"))
+q=(b**b) - (4*a*c)
+p=math.sqrt(q)
+r1=(-b+p)//2*a
+r2=(-b-p)//2*a
+print("r1 is the",r1)
+print("r2 is the",r2)
